@@ -1,0 +1,972 @@
+1
+00:00:00,240 --> 00:00:04,104
+Hello, world. My name is Professor David J. Malan. I teach computer science at Harvard
+
+2
+00:00:04,152 --> 00:00:07,736
+and I'm here today to answer your questions from Twitter. This is computer
+
+3
+00:00:07,768 --> 00:00:08,740
+Science support.
+
+4
+00:00:13,120 --> 00:00:16,552
+First up, from Tad Proletarian. How do search engines work so
+
+5
+00:00:16,576 --> 00:00:20,312
+fast? Well, the short answer really is distributed computing,
+
+6
+00:00:20,376 --> 00:00:23,944
+which is to say that Google and Bing and other such search engines,
+
+7
+00:00:23,992 --> 00:00:26,968
+they don't just have one server and they don't even have just one really big
+
+8
+00:00:27,024 --> 00:00:30,762
+server. Rather, they have hundreds, thousands, probably hundreds of
+
+9
+00:00:30,786 --> 00:00:34,442
+thousands or more servers nowadays around the world. And so when you and
+
+10
+00:00:34,466 --> 00:00:38,298
+I go to Google or Bing and maybe type in a word to search for,
+
+11
+00:00:38,354 --> 00:00:42,090
+like cats, it's quite possible that when you hit enter and that
+
+12
+00:00:42,130 --> 00:00:46,122
+keyword like cats is sent over the Internet to Google or to Bing,
+
+13
+00:00:46,186 --> 00:00:49,594
+it's actually spread out ultimately across multiple servers, some of
+
+14
+00:00:49,602 --> 00:00:52,602
+which are grabbing the first 10 results, some of which are grabbing the next 10
+
+15
+00:00:52,626 --> 00:00:56,506
+results, the next 10 result. So. So that you see just one collection of results.
+
+16
+00:00:56,578 --> 00:00:59,706
+But a lot of those ideas, a lot of those search results came from different
+
+17
+00:00:59,778 --> 00:01:03,322
+places. And this eliminates what could potentially be a bottleneck of
+
+18
+00:01:03,346 --> 00:01:06,970
+sorts if all of the information you needed had to come from one specific
+
+19
+00:01:07,050 --> 00:01:11,242
+server that might very well be busy. When you have that question, Nick asks,
+
+20
+00:01:11,306 --> 00:01:14,938
+will computer programming jobs be taken over by AI within the next
+
+21
+00:01:14,994 --> 00:01:18,458
+5 to 10 years? This is such a frequently asked question nowadays, and I don't
+
+22
+00:01:18,474 --> 00:01:22,116
+think the answer will be yes. And I think we've seen evidence of this already
+
+23
+00:01:22,188 --> 00:01:25,236
+in that early on when people were creating websites, they were literally
+
+24
+00:01:25,268 --> 00:01:28,452
+writing out code in a language called HTML by hand. But then,
+
+25
+00:01:28,476 --> 00:01:32,132
+of course, software came along, tools like Dreamweaver that you could download on your own
+
+26
+00:01:32,156 --> 00:01:35,300
+computer that would generate some of that same code for you. More recently, though,
+
+27
+00:01:35,340 --> 00:01:39,044
+now you can just sign up for websites like Squarespace and WIX and others whereby
+
+28
+00:01:39,092 --> 00:01:42,996
+click, click, click, and the website is generated for you. So I dare say certainly
+
+29
+00:01:43,028 --> 00:01:46,596
+in some domains that AI is really just an evolution of that trend.
+
+30
+00:01:46,708 --> 00:01:49,860
+And it hasn't put humans out of business as much as it has made
+
+31
+00:01:49,900 --> 00:01:53,700
+you and I much more productive. AI, I think. And the ability soon
+
+32
+00:01:53,740 --> 00:01:57,492
+to be able to program with natural language is just going to enhance what you
+
+33
+00:01:57,516 --> 00:02:00,500
+and I can already do logically, but much more mechanically.
+
+34
+00:02:00,580 --> 00:02:04,564
+And I think too, it's worth considering that there's just so many bugs or mistakes
+
+35
+00:02:04,612 --> 00:02:08,244
+in software in the world, and there's so many features that humans wish existed
+
+36
+00:02:08,292 --> 00:02:11,188
+in products present and future, that our to do list,
+
+37
+00:02:11,244 --> 00:02:14,606
+so to speak, is way longer than we'll ever have time to finish
+
+38
+00:02:14,638 --> 00:02:18,062
+in our lifetimes. And so I think the prospect of having an artificial
+
+39
+00:02:18,126 --> 00:02:21,822
+intelligence boost our productivity and work alongside us,
+
+40
+00:02:21,926 --> 00:02:24,830
+so to speak, as we try to solve problems is just going to mean that
+
+41
+00:02:24,870 --> 00:02:28,718
+you and I and the world together can solve so many more problems and move
+
+42
+00:02:28,774 --> 00:02:32,110
+forward together at an even faster rate. Alright, next up,
+
+43
+00:02:32,150 --> 00:02:35,934
+Sophia, who asks, how do microchips even work? It's just a green
+
+44
+00:02:35,982 --> 00:02:39,806
+piece of metal. Well, here, for instance, we have a whole bunch of microchips
+
+45
+00:02:39,838 --> 00:02:43,064
+on which what's called a logic board, or sometimes known as a motherboard. There's a
+
+46
+00:02:43,072 --> 00:02:46,472
+lot of ports that you might be familiar with. For instance, like here's some
+
+47
+00:02:46,496 --> 00:02:49,800
+ports for audio, here's some ports for networking, here's some ports for
+
+48
+00:02:49,840 --> 00:02:53,256
+USB and some other devices as well. And those ports, meanwhile,
+
+49
+00:02:53,288 --> 00:02:57,096
+are connected to lots of different chips on this board that know how to interpret
+
+50
+00:02:57,128 --> 00:03:01,176
+the signals from those ports. And perhaps the biggest chip on this motherboard
+
+51
+00:03:01,208 --> 00:03:04,776
+tends to be this thing here called the CPU or the central processing unit,
+
+52
+00:03:04,808 --> 00:03:08,360
+which is really the brains of the computer and what you can't necessarily quite see
+
+53
+00:03:08,400 --> 00:03:11,262
+because most of this is actually paint and not traces. But if I flip this
+
+54
+00:03:11,286 --> 00:03:15,118
+around, you'll actually see in the right light and with the right angle,
+
+55
+00:03:15,214 --> 00:03:18,686
+a whole bunch of traces running up, down, left and right on this logic
+
+56
+00:03:18,718 --> 00:03:21,854
+board that's connecting all of these various microchips. And by trace,
+
+57
+00:03:21,902 --> 00:03:25,022
+I mean a tiny little wire that's been etched into the
+
+58
+00:03:25,046 --> 00:03:28,382
+top or the bottom of this circuit board that connects two parts thereon.
+
+59
+00:03:28,446 --> 00:03:32,014
+Now, what might these microchips be doing? Well, again, they might be simply interpreting
+
+60
+00:03:32,062 --> 00:03:35,166
+signals that are coming in from these ports. Two, they might be performing
+
+61
+00:03:35,198 --> 00:03:39,294
+mathematical operations, doing something with those signals in order to convert input
+
+62
+00:03:39,342 --> 00:03:42,622
+into output, or they might just be storing information ultimately.
+
+63
+00:03:42,686 --> 00:03:45,726
+In fact, there's all different types of memory on a logic board like this,
+
+64
+00:03:45,798 --> 00:03:49,390
+be it RAM or ROM or the like. And so some of those chips might
+
+65
+00:03:49,430 --> 00:03:52,558
+very well be storing information for as long as the computer is plugged in,
+
+66
+00:03:52,614 --> 00:03:55,918
+or in some cases, depending on the device, even when the power goes
+
+67
+00:03:55,934 --> 00:03:59,614
+off. Alright, next, a question from Nkhe. So if anyone can learn
+
+68
+00:03:59,662 --> 00:04:03,166
+coding, what do computer scientists do? For four years in university,
+
+69
+00:04:03,318 --> 00:04:06,782
+typically in an undergraduate program in computer science,
+
+70
+00:04:06,926 --> 00:04:09,982
+computer engineering, or a similar field, someone spends
+
+71
+00:04:10,046 --> 00:04:14,078
+much more time learning about the field itself than about programming specifically.
+
+72
+00:04:14,174 --> 00:04:18,014
+So as such, you might study not only a bit of programming, but also mathematics,
+
+73
+00:04:18,062 --> 00:04:21,534
+certain fundamentals that transcend the particular classes you might have
+
+74
+00:04:21,542 --> 00:04:24,974
+taken in middle school or high school, but that can be used to solve grander
+
+75
+00:04:25,022 --> 00:04:28,222
+real World problems. You might learn something about networks, how you can
+
+76
+00:04:28,246 --> 00:04:31,774
+send information from point A to point B. You might learn about graphics, how you
+
+77
+00:04:31,782 --> 00:04:35,342
+can display things on the screen, or even create interactive animations or
+
+78
+00:04:35,366 --> 00:04:38,834
+the like. You might learn how to leverage certain ideas from mathematics and
+
+79
+00:04:38,902 --> 00:04:42,570
+other fields to implement your very own artificial intelligence nowadays,
+
+80
+00:04:42,650 --> 00:04:46,778
+whereby you use probability and statistics and information more
+
+81
+00:04:46,834 --> 00:04:50,490
+generally to try to predict what an intelligent individual,
+
+82
+00:04:50,570 --> 00:04:54,250
+or in this case computer, might say in response to a question. So computer
+
+83
+00:04:54,330 --> 00:04:57,722
+science itself is a very broad field, and programming is really just a
+
+84
+00:04:57,746 --> 00:05:01,322
+tool that you tend to learn along the way. For Maya Shelby,
+
+85
+00:05:01,386 --> 00:05:05,100
+how do zeros and ones turn into the Internet? Well, I think
+
+86
+00:05:05,140 --> 00:05:08,732
+the simplest answer there is that the Internet is built upon layers and
+
+87
+00:05:08,756 --> 00:05:12,060
+layers and layers of ideas. And if we start at the lowest of those
+
+88
+00:05:12,100 --> 00:05:15,292
+levels, zeros and ones, you have something called binary, where zeros and
+
+89
+00:05:15,316 --> 00:05:18,572
+ones can be used to represent any other numbers as well. And if we
+
+90
+00:05:18,596 --> 00:05:21,964
+use more and more zeros and ones, more and more binary digits
+
+91
+00:05:22,012 --> 00:05:24,956
+or bits, so to speak, we can count up higher and higher and higher.
+
+92
+00:05:25,028 --> 00:05:27,980
+And then if you and I agree that, alright, well, let's not just use these
+
+93
+00:05:28,020 --> 00:05:31,964
+patterns of zeros and ones to represent numbers, what if we reserve some
+
+94
+00:05:31,972 --> 00:05:35,392
+of these patterns to represent letters like the English Alphabet, and then
+
+95
+00:05:35,416 --> 00:05:38,912
+maybe you and I can decide to reserve certain patterns of zeros and ones to
+
+96
+00:05:38,936 --> 00:05:42,784
+represent colors like red and green and blue and combinations thereof?
+
+97
+00:05:42,832 --> 00:05:46,704
+Well, once we have the ability to represent colors, we could then represent whole
+
+98
+00:05:46,752 --> 00:05:50,272
+pictures, because what's a picture on your phone or a computer screen? Well, it's really
+
+99
+00:05:50,296 --> 00:05:54,032
+just a grid of dots, each of which has its own color. So this
+
+100
+00:05:54,056 --> 00:05:56,832
+is all to say that even if we start at this lowest level of just
+
+101
+00:05:56,856 --> 00:06:00,592
+zeros and ones, so long as you and I and all of the devices we
+
+102
+00:06:00,616 --> 00:06:03,718
+use agree to follow some steps standard like this, we can build these
+
+103
+00:06:03,774 --> 00:06:07,462
+layers and layers of abstraction, so to speak, on top of one another,
+
+104
+00:06:07,566 --> 00:06:11,030
+until finally you and I come up with a pattern of zeros and ones that
+
+105
+00:06:11,070 --> 00:06:14,710
+represent send this piece of information from me over there.
+
+106
+00:06:14,830 --> 00:06:17,610
+Thus we have something like the Internet.
+
+107
+00:06:18,590 --> 00:06:22,342
+Can someone that knows computer science explain to me why computers use binary
+
+108
+00:06:22,406 --> 00:06:25,542
+coding, not trinary? And trinary is supposed to be faster.
+
+109
+00:06:25,606 --> 00:06:28,782
+So it's not necessarily the case that a trinary system, which would
+
+110
+00:06:28,806 --> 00:06:32,782
+use three symbols, for instance 0, 1 and 2, would necessarily
+
+111
+00:06:32,846 --> 00:06:36,366
+be faster than binary, because binary using just zero and one
+
+112
+00:06:36,438 --> 00:06:39,742
+tends to be simpler to implement and also more robust to
+
+113
+00:06:39,766 --> 00:06:43,182
+potential error. Or if you're familiar with voltage levels, like in a battery,
+
+114
+00:06:43,246 --> 00:06:46,398
+it's very easy for a computer to distinguish something like 0
+
+115
+00:06:46,454 --> 00:06:50,126
+volts or 3 volts, but it gets a little harder if we try to draw
+
+116
+00:06:50,158 --> 00:06:53,902
+the line somewhere in between, because there's just a higher probability that a
+
+117
+00:06:53,926 --> 00:06:57,250
+computer might mistake a voltage level like 1.5
+
+118
+00:06:57,290 --> 00:07:00,850
+in the middle is maybe being a little closer to off than on or
+
+119
+00:07:00,890 --> 00:07:05,186
+to on than off. Here too is where even though there might be mathematical efficiencies
+
+120
+00:07:05,218 --> 00:07:09,250
+and real world efficiencies to using trinary, otherwise known as ternary,
+
+121
+00:07:09,330 --> 00:07:12,930
+like a zero, a one and a two digit instead of just zeros and ones,
+
+122
+00:07:13,010 --> 00:07:16,354
+it turns out because our world runs on electricity nowadays and there's so
+
+123
+00:07:16,362 --> 00:07:19,538
+much momentum behind binary that it just tends to be net
+
+124
+00:07:19,594 --> 00:07:23,896
+positive, rachelp95 asks why is every Windows solution,
+
+125
+00:07:24,008 --> 00:07:27,368
+have you tried restarting? And why does that always work? So that's
+
+126
+00:07:27,384 --> 00:07:31,240
+a very heavy handed solution to what are typically just bugs or mistakes in
+
+127
+00:07:31,280 --> 00:07:34,664
+software. For instance Windows in this case, restarting a computer
+
+128
+00:07:34,712 --> 00:07:38,344
+just starts everything from scratch. So all of the computer's short term memory
+
+129
+00:07:38,392 --> 00:07:41,912
+is lost and everything starts in pristine condition. Which is to say that it
+
+130
+00:07:41,936 --> 00:07:46,264
+starts in exactly the way that the programmers at Microsoft intended, without potentially
+
+131
+00:07:46,312 --> 00:07:49,764
+the distractions of the computer being in some weird state state or condition that the
+
+132
+00:07:49,772 --> 00:07:53,396
+programmers just didn't anticipate. Maybe you clicked on some buttons in a weird order,
+
+133
+00:07:53,468 --> 00:07:56,740
+maybe you opened a strange file, but maybe you got the computer into
+
+134
+00:07:56,780 --> 00:08:01,028
+a state that just wasn't programmed for properly. Jason Whitmer now asks what's
+
+135
+00:08:01,044 --> 00:08:04,292
+the best operating system? Well, this is one of these questions in computing we would
+
+136
+00:08:04,316 --> 00:08:07,892
+call a religious question, since it evokes a religious debate as to
+
+137
+00:08:07,916 --> 00:08:11,476
+which might be best. Of course, among the most popular operating systems out there are
+
+138
+00:08:11,548 --> 00:08:14,932
+Windows and macOS, but there's also one you might not have heard of,
+
+139
+00:08:14,956 --> 00:08:18,692
+which is called called Linux, which is actually very omnipresent in the enterprise
+
+140
+00:08:18,756 --> 00:08:22,612
+world. So many of today's servers actually run Linux. So many of today's desktops or
+
+141
+00:08:22,636 --> 00:08:25,764
+laptops though, run Windows or Mac os. Now that's not
+
+142
+00:08:25,772 --> 00:08:29,284
+to say you couldn't run all of those operating systems in different contexts. And some
+
+143
+00:08:29,292 --> 00:08:32,580
+of us do actually run Linux on our own computers. So a lot of it
+
+144
+00:08:32,620 --> 00:08:35,988
+is really boils down to personal preference. I wouldn't even say that there's
+
+145
+00:08:36,004 --> 00:08:39,620
+one best operating system, but there tend to be correlations between
+
+146
+00:08:39,660 --> 00:08:43,606
+the operating systems people use and the applications applications they have in mind. So Windows,
+
+147
+00:08:43,638 --> 00:08:47,094
+for instance, is so popular in the world of PCs and desktops and laptops.
+
+148
+00:08:47,142 --> 00:08:50,806
+Mac OS is to some Extent, particularly in academia in certain countries,
+
+149
+00:08:50,878 --> 00:08:54,326
+but not necessarily on the same scale. Linux, by contrast, is again
+
+150
+00:08:54,398 --> 00:08:57,686
+very much used heavily in the server side industry, but so is
+
+151
+00:08:57,758 --> 00:09:01,670
+Windows as well. So a lot of the choice for operating systems sometimes comes
+
+152
+00:09:01,710 --> 00:09:05,366
+from just what's most appropriate, what's most popular, what's most supportive.
+
+153
+00:09:05,398 --> 00:09:08,822
+But some of it comes too from just personal preference of the engineer, maybe the
+
+154
+00:09:08,846 --> 00:09:12,160
+first engineer that you hire to make one of those decisions. So it's more about
+
+155
+00:09:12,200 --> 00:09:15,168
+what's best for you and not so much best in general.
+
+156
+00:09:15,304 --> 00:09:18,560
+Next, Julio Magnifico asks, why aren't computers getting
+
+157
+00:09:18,600 --> 00:09:21,824
+cheaper? Well, computers, or at least computer parts
+
+158
+00:09:21,872 --> 00:09:26,272
+inside of computers, do tend to get cheaper. The catch is that your expectations
+
+159
+00:09:26,336 --> 00:09:30,016
+and my expectations just keep rising. We want our phones, our laptops,
+
+160
+00:09:30,048 --> 00:09:33,072
+our desktops to do more and more in the way of the software that they
+
+161
+00:09:33,096 --> 00:09:36,608
+run, the games that we use, and just how quickly they perform for us.
+
+162
+00:09:36,664 --> 00:09:40,260
+So even though some of those parts parts are getting less expensive, you and I
+
+163
+00:09:40,300 --> 00:09:43,652
+want them to do more and more and be faster and larger in quantity.
+
+164
+00:09:43,716 --> 00:09:47,060
+And so as a result, I dare say that the price isn't going
+
+165
+00:09:47,100 --> 00:09:50,852
+down as far as you might hope. That said, nowadays you can get for the
+
+166
+00:09:50,876 --> 00:09:54,692
+same amount of money from yesteryear much, much more in the way of computing
+
+167
+00:09:54,756 --> 00:09:58,132
+power. So arguably it's working to our benefit in some
+
+168
+00:09:58,156 --> 00:10:01,652
+cases. Next up from Daro Nabilo. Can someone explain cloud
+
+169
+00:10:01,716 --> 00:10:04,770
+computing to me like a 5 year old? Cloud computing is
+
+170
+00:10:04,810 --> 00:10:08,578
+essentially you using someone else's servers that someone is paying to
+
+171
+00:10:08,634 --> 00:10:12,034
+rent, for instance, or timeshare. So this isn't really a new idea
+
+172
+00:10:12,082 --> 00:10:15,762
+or new technology. Rather it's a better branding of a technique that's been
+
+173
+00:10:15,786 --> 00:10:18,642
+used for years, not just in the computer world, but in the real world as
+
+174
+00:10:18,666 --> 00:10:21,810
+well, whereby someone like Google or Microsoft or Apple or others
+
+175
+00:10:21,850 --> 00:10:25,362
+nowadays might be able to afford lots and lots and lots of servers and
+
+176
+00:10:25,386 --> 00:10:28,738
+then make those servers available in part to me, to you and
+
+177
+00:10:28,794 --> 00:10:31,746
+many other customers as well. Hey, I'm Marcus. Hey,
+
+178
+00:10:31,778 --> 00:10:35,154
+Marcus. Well, Marcus asks, how does computer memory work?
+
+179
+00:10:35,242 --> 00:10:38,802
+Think of computer memory as really being driven by a whole bunch of switches that
+
+180
+00:10:38,826 --> 00:10:42,082
+can either be turned on and off. So for instance, if I take this
+
+181
+00:10:42,106 --> 00:10:45,858
+here light switch, which is currently off, I could simply say that this
+
+182
+00:10:45,914 --> 00:10:49,442
+switch here is representing the number 0 in binary. But if I
+
+183
+00:10:49,466 --> 00:10:53,266
+turn the switch on, well now I can say that I'm representing the number one.
+
+184
+00:10:53,338 --> 00:10:56,610
+Now of course, I can only count as high as 0 to 1 with
+
+185
+00:10:56,650 --> 00:11:00,068
+a single light switch, but what if I bring over a Second light
+
+186
+00:11:00,124 --> 00:11:03,380
+switch, like this one here. If we start at zero in this
+
+187
+00:11:03,420 --> 00:11:06,804
+way, turn on this switch first and claim that it's
+
+188
+00:11:06,852 --> 00:11:10,308
+one. Let me now be more creative and turn this one off and this one
+
+189
+00:11:10,364 --> 00:11:13,636
+on. And now claim this is how a computer's memory could represent
+
+190
+00:11:13,708 --> 00:11:16,692
+the number two. And now if I turn this switch back on,
+
+191
+00:11:16,796 --> 00:11:20,356
+giving me a fourth pattern, this is how I might represent the number
+
+192
+00:11:20,428 --> 00:11:23,524
+three. Now of course, if we add more and more of these switches, more and
+
+193
+00:11:23,532 --> 00:11:27,418
+more of these light bulbs, we can count even higher than three. And indeed that's
+
+194
+00:11:27,434 --> 00:11:30,538
+what a computer's memory is ultimately doing. It's using lots
+
+195
+00:11:30,554 --> 00:11:34,074
+and lots of little tiny switches, otherwise known as transistors,
+
+196
+00:11:34,122 --> 00:11:37,290
+to turn the flow of electricity on and off. And then it's got other
+
+197
+00:11:37,330 --> 00:11:41,146
+types of hardware called for instance, capacitors that have a capacity
+
+198
+00:11:41,178 --> 00:11:44,730
+to hold on to some of that electricity, just like the light bulb there
+
+199
+00:11:44,850 --> 00:11:48,666
+being on. Alright. Next, Donny asks, how do you explain Web3
+
+200
+00:11:48,738 --> 00:11:51,898
+to people? So Web3, like Web2
+
+201
+00:11:51,954 --> 00:11:55,776
+and Wretches respectively, Web1 are really just buzzwords that describe sort
+
+202
+00:11:55,808 --> 00:11:59,056
+of phases of the Internet or the World Wide Web as you and I know.
+
+203
+00:11:59,128 --> 00:12:02,528
+For instance, back in the day when there was just the World Wide Web,
+
+204
+00:12:02,624 --> 00:12:06,464
+now perhaps referred to as Web version 1, information was largely
+
+205
+00:12:06,512 --> 00:12:10,112
+static. If you were to create a website on the Internet, you would type up
+
+206
+00:12:10,136 --> 00:12:13,024
+your code, you would type up your content, you would put it on a server
+
+207
+00:12:13,072 --> 00:12:16,288
+somewhere and someone could read that information. But it was
+
+208
+00:12:16,344 --> 00:12:19,706
+you, the web developer, or you, the owner of the website
+
+209
+00:12:19,778 --> 00:12:23,642
+that was creating that content for other people to actually read and consume.
+
+210
+00:12:23,706 --> 00:12:27,258
+In Web2, the world became much more dynamic in recent years,
+
+211
+00:12:27,314 --> 00:12:31,162
+whereby now websites tend to have databases and they have more
+
+212
+00:12:31,266 --> 00:12:34,842
+sophistication, so that a lot of the content in websites today are
+
+213
+00:12:34,866 --> 00:12:38,138
+actually coming from me and from you. So if you think of any social
+
+214
+00:12:38,194 --> 00:12:41,322
+media site, it's not the owners of those sites that are creating most of the
+
+215
+00:12:41,346 --> 00:12:45,072
+content, it's you and me as the users, those same websites.
+
+216
+00:12:45,136 --> 00:12:48,576
+But in Web2, everything is nonetheless very centralized. Whether you're
+
+217
+00:12:48,608 --> 00:12:52,208
+Twitter or Facebook now Meta or other companies. All of that data,
+
+218
+00:12:52,264 --> 00:12:55,200
+even in the world of social media that's coming from me and you,
+
+219
+00:12:55,240 --> 00:12:58,560
+is actually being stored centrally on those companies servers.
+
+220
+00:12:58,640 --> 00:13:02,080
+So web 3.0 or web 3, so to speak, is really
+
+221
+00:13:02,120 --> 00:13:05,632
+about transitioning away potentially from that very centralized
+
+222
+00:13:05,696 --> 00:13:09,104
+model to one that's more distributed. Where the data that you and
+
+223
+00:13:09,112 --> 00:13:12,302
+I are creating, whereby the data you and I are consuming is
+
+224
+00:13:12,326 --> 00:13:15,646
+actually distributed over multiple servers, over a technique
+
+225
+00:13:15,678 --> 00:13:19,678
+called blockchain for instance, in some cases, whereby there's not necessarily
+
+226
+00:13:19,774 --> 00:13:23,246
+one owner of that data, but really collective ownership
+
+227
+00:13:23,278 --> 00:13:26,862
+and therefore verification that the data maybe indeed came from
+
+228
+00:13:26,966 --> 00:13:30,542
+me and you. Next, a question from can
+
+229
+00:13:30,566 --> 00:13:34,430
+someone explain to me the difference between firmware and software? Hardware is
+
+230
+00:13:34,470 --> 00:13:38,062
+physical. Software is code. WTF is firmware?
+
+231
+00:13:38,126 --> 00:13:41,782
+Firmware is really a synonym for a type of software. So firmware is just
+
+232
+00:13:41,806 --> 00:13:45,414
+software, but it tends to be software that comes built into
+
+233
+00:13:45,502 --> 00:13:49,110
+your hardware. And you can think of in the simplest scenario that
+
+234
+00:13:49,150 --> 00:13:52,806
+firmware is software that is just completely integrated into the hardware
+
+235
+00:13:52,838 --> 00:13:56,182
+and itself cannot be changed or even upgraded. But that's a bit of an
+
+236
+00:13:56,206 --> 00:13:59,862
+oversimplification, because even firmware, typically when it comes in a
+
+237
+00:13:59,886 --> 00:14:03,158
+computer, when it comes in a phone or some other device, can very often
+
+238
+00:14:03,214 --> 00:14:06,678
+be updated. Why? Because the firmware is the software that's really
+
+239
+00:14:06,734 --> 00:14:09,670
+closest to the hardware. And in that sense it might very well be the most
+
+240
+00:14:09,710 --> 00:14:13,062
+important. And if anything goes wrong with the firmware, you might not even be able
+
+241
+00:14:13,086 --> 00:14:16,550
+to turn that device on, whether it's a phone, a computer, or even your refrigerator
+
+242
+00:14:16,630 --> 00:14:19,894
+nowadays. All right, that's all the questions for today. We hope you learned a
+
+243
+00:14:19,902 --> 00:14:22,030
+little something along the way. We'll see you next time.
+
