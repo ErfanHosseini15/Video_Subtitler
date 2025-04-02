@@ -3,7 +3,7 @@ from flask_cors import CORS
 from transcription_class import Video_Transcription
 import os 
 
-# Ensure the necessary directories exist
+# Ensure the necessary directories exists
 output_directory = "testing_medias"
 if not os.path.exists(output_directory):
     os.makedirs(output_directory)
@@ -47,7 +47,7 @@ def video_transcription():
         # Show subtitles on video frames using ffmpeg commands.
         print("*** display subtitle on video")
         displaying_subtitles = transcriber.overlay_subtitle_on_video(media_path, transcript_path=save_transcription_file,
-                                                                     output_path=output_video_path)
+                                                                    output_path=output_video_path)
         # print(displaying_subtitles)
         return jsonify({'status' : "successful !",
                         'output_file_saved' : displaying_subtitles}), 200
